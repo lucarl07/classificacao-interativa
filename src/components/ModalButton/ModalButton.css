@@ -1,0 +1,9 @@
+.modalBtn {
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 48px;
+    background-color: hsl(216, 12%, 20%);
+    color: var(--medium-grey);
+    font-weight: 700;
+}
