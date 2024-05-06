@@ -1,0 +1,11 @@
+* {
+  font-family: 'Overpass', sans-serif;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--very-dark-blue);
+}

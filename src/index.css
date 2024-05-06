@@ -1,0 +1,28 @@
+/** GLOBAL PROPERTIES: **/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/** VARIABLES: **/
+:root {
+  /* Primary Color: */
+  --orange: hsl(25, 97%, 53%);
+
+  /* Neutral Colors: */
+  --white: hsl(0, 0%, 100%);
+  --light-grey: hsl(217, 12%, 63%);
+  --medium-grey: hsl(216, 12%, 54%);
+  --dark-blue: hsl(213, 19%, 18%);
+  --very-dark-blue: hsl(216, 12%, 8%);
+
+  /* Font Sizes: */
+  --p-size: 15px;
+}
+
+/** CUSTOM FONTS: **/
+@font-face {
+  font-family: "Overpass";
+  src: url('./assets/fonts/Overpass/Overpass-VariableFont_wght.ttf');
+}
