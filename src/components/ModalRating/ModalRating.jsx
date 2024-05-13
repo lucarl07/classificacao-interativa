@@ -1,4 +1,5 @@
 import ModalButton from '../ModalButton/ModalButton';
+import Submit from '../Submit/Submit';
 import './ModalRating.css'
 
 const ModalRating = () => {
@@ -9,11 +10,14 @@ const ModalRating = () => {
 
   return (
     <form onSubmit={preventSubmit}>
-      <ModalButton value='1' />
-      <ModalButton value='2' />
-      <ModalButton value='3' />
-      <ModalButton value='4' />
-      <ModalButton value='5' />
+      <div>
+        <ModalButton value='1' />
+        <ModalButton value='2' />
+        <ModalButton value='3' />
+        <ModalButton value='4' />
+        <ModalButton value='5' />
+      </div>
+      <Submit />
     </form>
   );
 }
